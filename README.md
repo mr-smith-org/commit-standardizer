@@ -9,7 +9,7 @@ Write conventional commits for your projects with a friendly TUI.
 mr exec module -m commit-standardizer -r commit
 ```
 
-![out](https://github.com/user-attachments/assets/676579fe-66fa-4596-88e2-6a27c0931206)
+![out](https://github.com/user-attachments/assets/46ec9e1f-3d2a-46ce-be30-104b9fd52093)
 
 ### Mr. Smith docs 
 https://mr-smith.site/
