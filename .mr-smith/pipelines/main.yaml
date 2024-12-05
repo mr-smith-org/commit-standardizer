@@ -35,7 +35,7 @@ commit:
 
     - when: 
         condition: "{{.data.breakingChange}}"
-        run: describe-breaking-change
+        pipeline: describe-breaking-change
 
     - modify:
         file: "commit_message.txt"
@@ -58,7 +58,7 @@ commit:
 
     - when:
         condition: "{{.data.canCommit}}"
-        run: create-commit
+        pipeline: create-commit
 
 
 create-commit:
